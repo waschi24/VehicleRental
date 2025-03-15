@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBlock TextWrapping="Wrap" Margin="33,31,717,386" Text="Pick up:" />
+        <ComboBox x:Name="PickUpComboBox" Width="100" Height="20" Margin="100,25,597,386"/>
+        <TextBlock TextWrapping="Wrap" Margin="33,53,717,364" Text="Location" />
+        <ComboBox x:Name="LocationComboBox" Width="100" Height="20" Margin="102,55,598,359"/>
+        <TextBlock TextWrapping="Wrap" Margin="249,32,501,384" Text="Drop off:" />
+        <ComboBox x:Name="DropOffComboBox" Width="100" Height="20" Margin="320,25,380,384"/>
+        <TextBlock TextWrapping="Wrap" Margin="249,62,501,354" Text="Category" />
+        <ComboBox x:Name="CategoryComboBox" Width="100" Height="20" Margin="320,60,380,354"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="414" Margin="10,0,0,0" VerticalAlignment="Center" Width="478">
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="311" Margin="0,92,0,0" VerticalAlignment="Top" Width="431"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="133" Margin="502,10,0,0" VerticalAlignment="Top" Width="288"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="133" Margin="502,0,0,0" VerticalAlignment="Center" Width="288"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="133" Margin="502,291,0,0" VerticalAlignment="Top" Width="288"/>
     </Grid>
 </Window>

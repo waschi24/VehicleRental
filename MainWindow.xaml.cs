@@ -19,5 +19,13 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        string[] Categories = ["Category1", "Category2", "Category3"];
+        foreach (string category in Categories)
+        {
+            CategoryComboBox.Items.Add(category);
+            PickUpComboBox.Items.Add(category);
+            LocationComboBox.Items.Add(category);
+            PickUpComboBox.Items.Add(category);
+        }
     }
 }
